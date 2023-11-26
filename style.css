@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+.containar{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+   
+    position: relative;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 100px;
+}
+
+.listitem{
+    display: inline;
+    margin-right: 40px;
+}
+
+.logo{
+    width: 200px;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    color:blue;
+    transition: font-size 1s;
+}
+/* change the size and color during mouse over the link */
+.link:hover{
+    font-size: 30px;
+    color: red;
+}
+.title{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.title-h1{
+    font-size:25 px;
+    margin-bottom: 10px;
+}
+/* span tag used to design perticular parts */
+.title-h1 span{
+    font-size: 75px;
+    color:#463cff ;
+
+}
+.title-p{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.download{
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 7px 5px;
+
+}
+.images{
+    position: absolute;
+    bottom: 0px;
+    top: 30%;
+    left: 60%;
+    right: 20px;
+    width: 43%;
+    height:91%; 
+}
+.img{
+    width: 82%;
+    height: 50%;
+     transition:font-size 1s ; 
+}
+.img:hover{
+    width: 100%;
+    transition:font-size 1s ; 
+}
+
+#about{
+    margin-top: 220px;
+    margin-left: 8%;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.heading h1{
+    font-size: 60px;
+    color: black;
+}
+.heading h3{
+    font-size: 30px;
+    color: #f70666;
+}
+.abt-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.abt-img img{
+    width: 75%;
+}
+.abt-intro{
+    font-size: 20px;
+    text-align: justify;
+}
+html{
+    scroll-behavior: smooth;
+}
+#skills {
+    margin-top: 20px;
+    margin-left: 8%;
+}
+
+.skill-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+}
+
+.skill-img {
+    width: 75%;
+}
+
+.abt-skill {
+    text-align: justify;
+    font-size: 30px;
+    margin-top: 20px;
+    color: #000000;
+}
+
+h11{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #f70666;
+
+}
+.abt-con{
+    font-size: 30px;
+    color: #000000;
+    margin-top: 20px;
+    margin-left:30px;
+}
